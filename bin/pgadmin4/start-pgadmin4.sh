@@ -17,7 +17,7 @@ source /opt/cpm/bin/common_lib.sh
 enable_debugging
 
 export PATH=$PATH:/usr/pgsql-*/bin
-PGADMIN_DIR='/usr/lib/python2.7/site-packages/pgadmin4-web'
+PGADMIN_DIR='/usr/lib/python3.6/site-packages/pgadmin4-web'
 APACHE_PIDFILE='/tmp/httpd.pid'
 
 function trap_sigterm() {
